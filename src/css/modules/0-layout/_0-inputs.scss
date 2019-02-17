@@ -1,0 +1,27 @@
+.select {
+	padding: 1.2rem 2.4rem;
+	height: 28px;
+	border: none;
+	font-size: 1.4rem;
+	outline: none;
+
+	&--bigger {
+		width: 246.5px;
+	}
+
+	&--smaller {
+		width: 180px;
+	}
+}
+
+@media (max-width: 880px) {
+	.select {
+		&--bigger {
+			width: 100%;
+		}
+
+		&--smaller {
+			width: 100%;
+		}
+	}
+}
