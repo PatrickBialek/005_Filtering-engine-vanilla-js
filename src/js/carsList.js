@@ -190,6 +190,4 @@ const cars = [{
 	}
 ];
 
-export {
-	cars
-};
+export { cars };
