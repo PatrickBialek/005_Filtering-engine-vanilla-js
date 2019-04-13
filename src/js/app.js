@@ -1,4 +1,6 @@
-import { cars } from "./carsList.js";
+import {
+	cars
+} from "./carsList.js";
 
 const maxyear = new Date().getFullYear(),
 	make = document.querySelector("#make"),
